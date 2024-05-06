@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Video Summarizer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <img height="60px" width="125px" src="images\YouTube-Logo.wine.svg" alt="Youtube logo">
+      <p>Video Summarizer</p>
+      <div class="wrapper">
+        <form action="/getsummary" method="post">
+        <input type="text" name="url" placeholder="Enter Video URL" />
+        <button type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M5 12l14 0"></path>
+                <path d="M13 18l6 -6"></path>
+                <path d="M13 6l6 6"></path>
+            </svg>
+        </button>
+        </form>
+    </div>
+    </div>
+    <div class="about">
+      <!-- <h2>About the app</h2> -->
+      <p>
+        Elevate your video consumption experience with our YouTube Summarizer app. By inputting the URL of any YouTube video, our innovative tool swiftly extracts its transcript. Seamlessly integrating Gemini AI technology, it then crafts concise summaries, condensing lengthy content into easily digestible insights. Whether you're a busy professional seeking efficient information consumption or a curious learner maximizing your time, our app empowers you to unlock the essence of any video effortlessly.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
